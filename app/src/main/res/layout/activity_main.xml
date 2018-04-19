@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.maxblade.getmessage.MainActivity">
+
+    <TextView
+        android:id="@+id/macTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:gravity="center"
+        android:text="Mac Address :"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <EditText
+        android:id="@+id/regnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Registration Number"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:typeface="sans"
+        android:textColorHint="#949494"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="90dp" />
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Submit"
+        android:background="@color/colorAccent"
+        android:textColor="#313131"
+        android:layout_below="@+id/regnum"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/accept"/>
+</RelativeLayout>
